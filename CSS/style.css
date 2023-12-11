@@ -109,3 +109,17 @@
         grid-template-columns: 1fr;
     }
 }
+#viewProjectButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: pink; /* Set initial background color */
+  color: #000000; /* Set initial text color */
+  border-color: #DB4673;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+#viewProjectButton:hover {
+  background-color: #DB4673; /* Change background color on hover */
+  color: #fff; 
+}
