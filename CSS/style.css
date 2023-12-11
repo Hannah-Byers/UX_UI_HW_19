@@ -123,3 +123,8 @@
   background-color: #DB4673; /* Change background color on hover */
   color: #fff; 
 }
+
+#smooth {
+  cursor: pointer; 
+}
+
