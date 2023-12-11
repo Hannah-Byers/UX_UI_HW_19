@@ -1,0 +1,111 @@
+.navigation {
+    display: flex;
+  }
+  
+  .inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .logo {
+    width: 23%;
+    padding: 1%;
+  }
+  
+  nav {
+    width: 73%;
+    padding: 1%;
+  }
+  
+  ul {
+    width: 50%;
+    margin-left: auto;
+  }
+  li{
+    padding: 15px;
+  }
+
+  .logo img {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+  }
+  
+  .mySkills {
+    text-align: center;
+    padding: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexChild {
+    text-align: center;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.myWork {
+    text-align: center;
+    padding: 20px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.workItem {
+    
+}
+  
+  /* Footer CSS */
+  footer {
+    background-color: #373738;
+    padding: 20px;
+    margin-top: 20%;
+  }
+  
+  footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+  }
+  
+  footer li {
+    list-style: none;
+    color: white;
+    padding: 15px;
+  }
+  body{
+    background-color: #F5F4EB;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    color: #333;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flexChild {
+        width: 100%;
+        /* Add additional mobile styles as needed */
+    }
+
+    .workGrid {
+        grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item4";
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: 1fr;
+    }
+}
